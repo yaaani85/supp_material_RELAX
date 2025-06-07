@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: query_evaluation
+Version: 0.0.1
+Summary: A tool for evaluation of "hardness" of queries
+Maintainer: Michael Cochez
+Maintainer-email: nospam@nospam.com
+Project-URL: Bug Tracker, https://github.com/intelligent-systems-course/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: rdflib==7.0.0
+Requires-Dist: torch==2.1.1
+Requires-Dist: gqs@ git+https://github.com/miselico/graph_query_sampler.git@main
+Provides-Extra: test
+Requires-Dist: flake8; extra == "test"
+Requires-Dist: mypy; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: unittest-templates; extra == "test"
+Provides-Extra: dev
+Requires-Dist: ipykernel; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: pdoc; extra == "doc"
+
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <img src="images/project.png" alt="Logo" width="800" height="800">
+
+  <h3 align="center">Query Evaluation</h3>
+
+  <p align="center">
+    A query evaluation tool for determining hardness of datasets
+    <br />
+    <a href="."><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href=".">View Demo</a>
+    ·
+    <a href=".">Report Bug</a>
+    ·
+    <a href=".">Request Feature</a>
+  </p>
+</div>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+
+
+### Built With
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Installation
+
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
+
+1. Clone repo
+   ```sh
+   pip install -e .
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
